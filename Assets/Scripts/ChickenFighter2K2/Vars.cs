@@ -76,18 +76,18 @@ namespace ChickenFighter2K2
         public static byte SNK1 = 0; // 'type of snack
         public static byte Level = 0; // 'type of area your allowed into
 
-        public static (byte, byte) ChickenPow = (0, 0);
-        public static (byte, byte) ChickenDef = (0, 0);
-        public static (byte, byte) ChickenSpe = (0, 0);
-        public static (byte, byte) ChickenHp = (0, 0);
-        public static (byte, byte) ChickenHpMax = (0, 0);
-        public static (string, string) ChickenName = (string.Empty, string.Empty);
-        public static (byte, byte) ChickenWPN = (0, 0);
-        public static (byte, byte) ChickenARM = (0, 0);
-        public static (int, int) ChickenEXP = (0, 0);
-        public static (byte, byte) ChickenTYPE = (0, 0);
-        public static (byte, byte) ChickenRANK = (0, 0);
-        public static (int, int) ChickenEXPNEXT = (0, 0);
+        public static byte[] ChickenPow = new byte[2];
+        public static byte[] ChickenDef = new byte[2];
+        public static byte[] ChickenSpe = new byte[2];
+        public static byte[] ChickenHp = new byte[2];
+        public static byte[] ChickenHpMax = new byte[2];
+        public static string[] ChickenName = { string.Empty, string.Empty };
+        public static byte[] ChickenWPN = new byte[2];
+        public static byte[] ChickenARM = new byte[2];
+        public static int[] ChickenEXP = new int[2];
+        public static byte[] ChickenTYPE = new byte[2];
+        public static byte[] ChickenRANK = new byte[2];
+        public static int[] ChickenEXPNEXT = new int[2];
 
         public static bool IsFightVisible = false; // 'if true, multiplayer fight is visible
     }
